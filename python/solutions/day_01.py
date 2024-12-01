@@ -33,7 +33,4 @@ def open_input_file(file_path: str) -> ([], []):
     return lhs, rhs
 
 def get_input_file(use_test_files: bool = False):
-    if use_test_files:
-        return TEST_FILE_PATH
-    else:
-        return FILE_PATH
+    return TEST_FILE_PATH if use_test_files else FILE_PATH
