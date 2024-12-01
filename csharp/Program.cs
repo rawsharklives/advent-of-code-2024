@@ -131,7 +131,7 @@ namespace AdventOfCode
             var puzzleFoundInCache = false;
             var puzzleDownloaded = false;
 
-            if (DateTime.Now.Year != year || DateTime.Now.Month != 11)
+            if (DateTime.Now.Year != year || DateTime.Now.Month != 12)
             {
                 return false; // It's not December in the correct year!
             }
