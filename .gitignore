@@ -5,7 +5,7 @@
 
 #AOC
 
-InputFiles/*.txt
+csharp/InputFiles/*.txt
 
 # User-specific files
 *.rsuser
