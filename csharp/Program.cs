@@ -27,9 +27,9 @@ namespace AdventOfCode
             Console.WriteLine($"Day 1 - Part Two Answer: {Day01.Part2.GetAnswer()}");
             Console.WriteLine("----------------------------------------------------------------------");
 
-            //Console.WriteLine($"Day 2 - Part One Answer: {Day02.Part1.GetAnswer()}");
-            //Console.WriteLine($"Day 2 - Part Two Answer: {Day02.Part2.GetAnswer()}");
-            //Console.WriteLine("----------------------------------------------------------------------");
+            Console.WriteLine($"Day 2 - Part One Answer: {Day02.Part1.GetAnswer()}");
+            Console.WriteLine($"Day 2 - Part Two Answer: {Day02.Part2.GetAnswer()}");
+            Console.WriteLine("----------------------------------------------------------------------");
 
             //Console.WriteLine($"Day 3 - Part One Answer: {Day03.Part1.GetAnswer()}");
             //Console.WriteLine($"Day 3 - Part Two Answer: {Day03.Part2.GetAnswer()}");

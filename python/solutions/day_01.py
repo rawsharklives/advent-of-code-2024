@@ -1,7 +1,7 @@
-FILE_PATH: str = "./../../csharp/InputFiles/01.txt"
-TEST_FILE_PATH: str = "./../../csharp/InputFiles/01TestFile.txt"
+FILE_PATH = "./../../csharp/InputFiles/01.txt"
+TEST_FILE_PATH = "./../../csharp/InputFiles/01TestFile.txt"
 
-def day_01(use_test_files: bool = False):
+def day_01(use_test_files = False):
     file_path = get_input_file(use_test_files)
     part_1(file_path)
     part_2(file_path)
@@ -22,7 +22,7 @@ def part_2(file_path):
 
     print(f'Day 01 Part 2 - {result}')
 
-def open_input_file(file_path: str) -> ([], []):
+def open_input_file(file_path) -> ([], []):
     lhs = []
     rhs = []
     with open(file_path, 'r') as file:
@@ -32,5 +32,5 @@ def open_input_file(file_path: str) -> ([], []):
             rhs.append(int(pairs[1]))
     return lhs, rhs
 
-def get_input_file(use_test_files: bool = False):
+def get_input_file(use_test_files = False):
     return TEST_FILE_PATH if use_test_files else FILE_PATH
